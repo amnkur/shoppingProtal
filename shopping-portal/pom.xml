@@ -19,10 +19,16 @@
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
+			<artifactId>spring-webmvc</artifactId> 
 			<version>5.0.3.RELEASE</version>
 		</dependency>
 
+		<!-- JSTL -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency> 
 
 		<dependency>
 			<groupId>junit</groupId>
