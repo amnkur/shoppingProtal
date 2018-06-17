@@ -13,7 +13,7 @@
 						<span class="sr-only">(current)</span>
 				</a></li>
 				<li class="nav-item" id="about"><a class="nav-link" href="${contextRoot}/about">About</a></li>
-				<li class="nav-item" id="listProduct"><a class="nav-link" href="${contextRoot}/listProduct">View Products</a></li>
+				<li class="nav-item" id="listProduct"><a class="nav-link" href="${contextRoot}/show/all/products">View Products</a></li>
 				<li class="nav-item" id="contact"><a class="nav-link" href="${contextRoot}/contact">Contact</a></li>
 			</ul>
 		</div>

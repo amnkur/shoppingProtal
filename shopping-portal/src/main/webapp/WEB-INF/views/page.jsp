@@ -45,11 +45,11 @@
 			<c:if test="${userClick == 'About'}">
 				<%@include file="./About.jsp"%>
 			</c:if>
-			<c:if test="${userClick == 'listProduct'}">
-				<%@include file="./listProduct.jsp"%>
-			</c:if>
 			<c:if test="${userClick == 'Contact'}">
 				<%@include file="./Contact.jsp"%>
+			</c:if>
+			<c:if test="${userClick == 'listAllProducts' or userClick == 'listAllCategoryProducts'}">
+				<%@include file="./viewProducts.jsp"%>
 			</c:if>
 		</div>
 

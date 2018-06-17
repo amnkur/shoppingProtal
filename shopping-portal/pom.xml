@@ -8,6 +8,14 @@
 	<name>shopping-portal Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+
+		<!-- Link Backend Project -->
+		<dependency>
+			<groupId>com.home</groupId>
+			<artifactId>shoppingBackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 		<!-- Java EE -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -19,7 +27,7 @@
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId> 
+			<artifactId>spring-webmvc</artifactId>
 			<version>5.0.3.RELEASE</version>
 		</dependency>
 
@@ -28,7 +36,7 @@
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
-		</dependency> 
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
